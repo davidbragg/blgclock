@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=3 uid="uid://db6psf4fklpv2"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_ogchl"]
+[ext_resource type="LabelSettings" uid="uid://bi76hu0pux6eq" path="res://label.tres" id="2_848m5"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ogchl")
+metadata/_edit_horizontal_guides_ = [390.0]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.180392, 0.180392, 0.180392, 1)
+
+[node name="HourLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -178.0
+offset_top = 80.0
+offset_right = 178.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "09"
+label_settings = ExtResource("2_848m5")
+horizontal_alignment = 1
+
+[node name="MinuteLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -178.0
+offset_top = 331.0
+offset_right = 178.0
+offset_bottom = 331.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "09"
+label_settings = ExtResource("2_848m5")

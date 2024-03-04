@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://bi76hu0pux6eq"]
+
+[ext_resource type="FontFile" uid="uid://bwsr4tor6oiss" path="res://larabieb.ttf" id="1_so3v8"]
+
+[resource]
+font = ExtResource("1_so3v8")
+font_size = 337
+font_color = Color(0.541176, 0.741176, 0.517647, 1)
